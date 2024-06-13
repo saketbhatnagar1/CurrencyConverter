@@ -1,0 +1,62 @@
+/* Container styling */
+.input-box-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 300px;
+  margin: 10px ;
+  padding: 20px;
+  border: 1px solid #f1fcfa;
+  border-radius: 8px;
+  background-color: #7d7d7d;
+
+}
+
+/* Label styling */
+.input-box-container label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Input field styling */
+.input-box-container input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+.input-box-container input[type="number"]:disabled {
+  background-color: #e9e9e9;
+  cursor: not-allowed;
+  margin: 10px;
+}
+
+/* Select dropdown styling */
+.input-box-container select {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #5ee4ff;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.input-box-container select:disabled {
+  background-color: #e9e9e9;
+  cursor: not-allowed;
+}
+
+/* Paragraph styling for Currency Type */
+.input-box-container p {
+  margin: 0 0 8px 0;
+  font-weight: bold;
+  font-size: 14px;
+  color: #333;
+}
